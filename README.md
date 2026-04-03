@@ -144,28 +144,34 @@ USER MENU
 ## 📂 Project Structure
 
 Ticket-Booking-System/
-├── com.ticketBooking.Dao/
-│   ├── BookingDAO.java
-│   ├── ShowDAO.java
-│   └── UserDAO.java
 │
-├── com.ticketBooking.DBConnection/
-│   └── DBConnection.java
+├── src/
+│   └── com/
+│       └── ticketBooking/
+│           ├── Dao/
+│           │   ├── BookingDAO.java
+│           │   ├── ShowDAO.java
+│           │   └── UserDAO.java
+│           │
+│           ├── DBConnection/
+│           │   └── DBConnection.java
+│           │
+│           ├── Entity/
+│           │   ├── Users.java
+│           │   ├── Show.java
+│           │   └── Booking.java
+│           │
+│           ├── Service/
+│           │   ├── interfaces/
+│           │   └── implementations/
+│           │
+│           ├── Utility/
+│           │   └── MenuApp.java
+│           │
+│           └── Map/
+│               └── MainApp.java
 │
-├── com.ticketBooking.Entity/
-│   ├── Users.java
-│   ├── Show.java
-│   └── Booking.java
-│
-├── com.ticketBooking.Service/
-│   ├── interfaces/
-│   └── implementations/
-│
-├── com.ticketBooking.Utility/
-│   └── MenuApp.java
-│
-└── com.ticketBooking.Map/
-    └── MainApp.java
+└── README.md
 
 --------------------------------------------------
 
