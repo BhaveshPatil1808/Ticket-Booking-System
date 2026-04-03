@@ -59,14 +59,14 @@ SYSTEM FEATURES
 
 ## 🧑‍💻 Getting Started
 
-1. Clone Repository
+**1. Clone Repository**
 
 git clone https://github.com/BhaveshPatil1808/Ticket-Booking-System.git
 cd Ticket-Booking-System
 
 --------------------------------------------------
 
-2. Configure Database
+**2. Configure Database**
 
 Edit DBConnection.java:
 
@@ -76,8 +76,8 @@ String url = "jdbc:mysql://localhost:3306/ticket_system";
 
 --------------------------------------------------
 
-3. Create Database
-
+**3. Create Database**
+```sql
 CREATE DATABASE ticket_system;
 
 USE ticket_system;
@@ -111,16 +111,16 @@ CREATE TABLE bookings (
   FOREIGN KEY (user_id) REFERENCES users(id),
   FOREIGN KEY (show_id) REFERENCES shows(id)
 );
-
+```
 --------------------------------------------------
 
-4. Compile Project
+**4. Compile Project**
 
 javac -d bin src/com/ticketBooking/**/*.java
 
 --------------------------------------------------
 
-5. Run Application
+**5. Run Application**
 
 java -cp bin com.ticketBooking.Map.MainApp
 
@@ -142,7 +142,7 @@ USER MENU
 --------------------------------------------------
 
 ## 📂 Project Structure
-
+```bash
 Ticket-Booking-System/
 │
 ├── src/
@@ -172,7 +172,7 @@ Ticket-Booking-System/
 │               └── MainApp.java
 │
 └── README.md
-
+```
 --------------------------------------------------
 
 ## 🔮 Future Improvements
